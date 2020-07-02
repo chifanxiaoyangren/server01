@@ -34,7 +34,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 12);
+            this.textBox1.Location = new System.Drawing.Point(467, 12);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(321, 310);
@@ -42,12 +42,13 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(593, 145);
+            this.button1.Location = new System.Drawing.Point(12, 10);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(155, 177);
+            this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
+            this.button1.Text = "start server";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Form1
             // 
